@@ -1,0 +1,153 @@
+@charset "UTF-8";
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+height: 100%;
+}
+
+body {
+	height: 100%;
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+    background-color: #fffafa;
+}
+
+header {
+    width: 100%;
+    background-color: #daa5a5;
+    top: 0;
+    position: fixed;
+}
+
+header p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    padding: 15px 0;
+}
+
+.box3 {
+    margin: 120px 10%;
+    padding-bottom: 120px;
+}
+
+.detail {
+    border: 2px solid #daa5a5;
+    border-radius: 16px;
+    background-color: white;
+}
+
+
+.main {
+    display: flex;
+    padding: 20px 5%;
+    gap: 80px;
+}
+
+.main img {
+    width: 350px;
+    height: auto;
+}
+
+.box {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.box4 {
+    padding-left: 70%;
+}
+
+.box4 a {
+    border-radius: 4px;
+    border: 1px solid #bc8f8f;
+    padding: 8px;
+    color: black;
+}
+
+.box2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.box2 p {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: courier;
+    color: rgb(244, 72, 72);
+}
+
+.box p {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.box span {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.bottom {
+    padding-top: 20px;
+}
+
+.bottom p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+footer {
+    width: 100%;
+    background-color: #bc8f8f;
+    position: fixed;
+    bottom: 0;
+    padding-left: 10%; 
+    padding-right: 10%;  
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .material-symbols-outlined {
+    font-size: 45px;
+    color: #f5f5f5;
+}

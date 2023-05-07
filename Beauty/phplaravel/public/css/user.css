@@ -1,0 +1,262 @@
+@charset "UTF-8";
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+height: 100%;
+}
+
+body {
+	height: 100%;
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+    background-color: #fffafa;
+}
+
+header {
+    width: 100%;
+    background-color: #daa5a5;
+    position: fixed;
+    top: 0;
+}
+
+header p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    padding: 15px 0;
+}
+
+.page {
+    margin-top: 120px;
+}
+
+.head {
+    padding: 0 10%;
+    padding-bottom: 30px;
+    display: flex;
+    border-bottom: 2px solid #daa5a5;
+    gap: 30px;
+}
+
+.img {
+    width: 25%;
+}
+
+.img img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-left: 30px;
+    border: 2px solid grey;
+    object-fit: cover;
+}
+
+.name {
+    width: 40%;
+}
+
+.top {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+input {
+    border-radius: 4px;
+    border: 1px solid #bc8f8f;
+    padding: 5px;
+    background-color: white;
+}
+
+.btn a {
+    border-radius: 4px;
+    border: 1px solid #bc8f8f;
+    padding: 8px;
+    background-color: white;
+    color: black;
+    font-size: 13px;
+}
+
+.tab1 {
+    width: 100%;
+    border-bottom: 2px solid #daa5a5;
+}
+
+.tab1 p {
+    text-align: center;
+}
+
+.box5 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 5%;
+    gap: 15px;
+    padding-bottom: 120px;
+}
+
+.products {
+    border: 2px solid #daa5a5;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.img5 {
+    width: 200px;
+    height: 260px;
+    padding-top: 5px;
+}
+
+.img5 img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+}
+
+.bottom {
+    padding-top: 2px;
+    display: flex;
+    border-top: 2px solid #daa5a5;
+}
+
+.name2 p {
+    color: black;
+}
+
+.like3 {
+    margin-left: auto;
+    margin-right: 4px;
+}
+
+#favorite {
+    border: none;
+    background-color: white;
+}
+
+.fav {
+    color: #c30;
+}
+
+.tab2 {
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid #eccfcf;
+}
+
+.is-active {
+    border-bottom: 2px solid #daa5a5;
+}
+
+.review {
+    border-right: 2px solid #daa5a5;
+    width: 50%;
+}
+
+.review p {
+    text-align: center;
+}
+
+.like {
+    width: 50%;
+}
+
+.like p {
+    text-align: center;
+}
+
+.box6 {
+    padding-bottom: 90px;
+}
+
+.panel {
+    display: none;
+}
+
+.is-show {
+    display: block;
+}
+
+.review2 {
+    margin: 30px 10%;
+    border: 2px solid #daa5a5;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.title {
+    border-bottom: 2px solid #daa5a5;
+    padding: 10px;
+    display: flex;
+}
+
+.title p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.title a {
+    margin-left: auto;
+    margin-right: 35px;
+    border: 1px solid #daa5aa;
+    border-radius: 6px;
+    padding: 3px;
+    color: rgb(62, 60, 60);
+}
+
+.komento {
+    padding: 15px;
+}
+
+footer {
+    width: 100%;
+    background-color: #bc8f8f;
+    position: fixed;
+    bottom: 0;
+    padding-left: 10%; 
+    padding-right: 10%;  
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .material-symbols-outlined {
+    font-size: 45px;
+    color: #f5f5f5;
+}
